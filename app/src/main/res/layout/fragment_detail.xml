@@ -37,6 +37,7 @@
                 android:textAlignment="center"
                 android:gravity="center_vertical"
                 android:id="@+id/tv_buyLink"
+                android:textColor="#0000FF"
                 android:clickable="true"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
