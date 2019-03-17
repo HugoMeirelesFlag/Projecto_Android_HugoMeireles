@@ -62,7 +62,7 @@ public class DetailFragment extends Fragment {
         if(item.getSaleInfo().getBuyLink()==null){
             tvBuy.setText("Nao existe Link!");
         }else{
-            tvBuy.setText("Buy Link!");
+            tvBuy.setText("Buy Book Here!");
         }
         if(item.getVolumeInfo().getImageLinks()!=null){
             Picasso.get().load(item.getVolumeInfo().getImageLinks().getThumbnail()).into(ivImage);
